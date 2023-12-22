@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  travclan,
   carrent,
   jobit,
   tripguide,
@@ -38,25 +39,29 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    title: "Resume",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Node.js Developer",
+    icon: web,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -97,10 +102,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -108,63 +109,58 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
+  // {
+  //   title: "React.js Developer",
+  //   company_name: "Travclan",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer II",
+    company_name: "Travclan",
+    icon: travclan,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Getting actively involved in POCs (for implementing any new architecture or new libraries).",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently working on the most elusive, high-impact project of package booking which involves complex calculations of prices and selection for users and finding ways to optimize for a seamless experience.",
+      "Mentoring interns and discussing good coding practices while keeping the deliverables on time."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer I",
+    company_name: "Travclan",
+    icon: travclan,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sept 2022 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Revamped the entire website keeping the current architecture and applications in mind, which resulted in a 30% increase in user engagement.",
+      "Worked on developing a content management platform/engine that generates templates that are visually stunning and cross-platform(compatibility with different UI frameworks like Bootstrap, material-ui, etc.)"
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer Trainee",
+    company_name: "Travclan",
+    icon: travclan,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sept 2021 - Sept 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to major projects of the company e.g. (Flights, hotels, and agent websites). Also debugged issues related to the payment system which resulted in the improvement of the payment system by 40%.",
+      "Delved deep into react framework, familiarised with the code base and agile development process."
     ],
   },
 ];
@@ -172,27 +168,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Awarded esops for being top 10% performer in company.",
+    link: 'https://photos.app.goo.gl/456rinPQ9bk4ewEb9'
+    // name: "Sara Lee",
+    // designation: "CFO",
+    // company: "Acme Co",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Awarded top performer for work on holidays/packages and goodies.",
+      link:"https://photos.app.goo.gl/AgBCuUh3VZArbBt98"
+    // name: "Chris Brown",
+    // designation: "COO",
+    // company: "DEF Corp",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Awarded shining star award during internship.",
+      link: "https://drive.google.com/file/d/1oCE7YnCPcKMWqvGaFfN4Uk5gRZZd_2vC/view"
+    // name: "Lisa Wang",
+    // designation: "CTO",
+    // company: "456 Enterprises",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
